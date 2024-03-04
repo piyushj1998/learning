@@ -15,6 +15,7 @@ const routes: Routes = [
   path:"javascript",
   component:JavaScriptComponent
   },
+  
   {
   path:"angular",
   component:AngularComponent
