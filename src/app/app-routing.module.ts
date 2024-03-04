@@ -4,7 +4,6 @@ import { JavaScriptComponent } from './JavaScript/JavaScript.component';
 import { HomeComponent } from './home/home.component';
 import { AngularComponent } from './Angular/Angular.component';
 import { InterviewQuestionsComponent } from './Interview/interview-questions.component';
-import { ReactComponent } from './Reactjs/react.component';
 
 // { path: '', component: FirstComponent },
 const routes: Routes = [
@@ -18,7 +17,7 @@ const routes: Routes = [
   },
   {
   path:"angular",
-  component:ReactComponent
+  component:AngularComponent
   },
   {
   path:"questions",
